@@ -3,7 +3,8 @@ TOPICS COVERED:
 - Multiple Inheritance.
 - Exceptions, Try, Catch, Finally (NEED TO ANNOTATE.)
 - Generic Types.
-
+- Wildcard (not covered in Further programming.)
+  
 TOPICS TO COVER:
 - Dynamic Dispatch.
 - Composition, Inheritance vs Composition.
