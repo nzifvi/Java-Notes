@@ -9,7 +9,7 @@ interface blueprintClass{
         System.out.println("function");
 
         /*
-        * Default allows for an abstract method to have a body (definition) that can be later overridden by a class
+        * Default allows for an abstract method to have a body (definition) that can be later overridden, using @Override on the line above the function re-definition, by a class
         * which implements the interface.
         * */
     }
