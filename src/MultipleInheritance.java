@@ -9,6 +9,18 @@ public class MultipleInheritance {
     */
 }
 
+/*
+WHAT IS AN INTERFACE?
+
+An interface is a blueprint of a class that a class can "implement." The class which implements the interface gains access the methods (both abstract and default abstract).
+
+- Abstract methods (methods that have no body) can be overriden and provided a definition in the class which implements the interface (blueprint class.)
+
+- Default abstract methods (methods that do have a body) can be overriden by the class which implements the the interface: changing the method's definition only for the
+  class which implements the interface.
+
+*/
+
 interface MultipleInheritanceDog{
     default void makeNoise(){
         System.out.println("bark");
