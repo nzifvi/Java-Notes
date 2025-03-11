@@ -1,9 +1,9 @@
 /*
-* WHAT IS DYNAMIC DISPATCH?
-* Dynamic Dispatch is the process of using polymorphism to select, which version of a method that has multiple definitions
+* WHAT IS SUBTYPING
+* Subtyping is the process of using polymorphism to select, which version of a method that has multiple definitions
 * due to polymorphism, when the polymorphised method is called.
 *
-* To implement Dynamic Dispatch, inheritance is used...
+* To implement Subtyping, inheritance is used...
 *
 *               ParentClass
 *                   |
@@ -15,7 +15,7 @@
 *  Methods in ParentClass are both inherited by ChildClass1 and ChildClass2. Without inheritance, this is not possible.
 * */
 
-public class DynamicDispatch {
+public class Subtyping {
     public static void main(String[] args){
         ParentClass parentObj1 = new ParentClass();
         ChildClass1 childObj1 = new ChildClass1();
@@ -38,7 +38,7 @@ public class DynamicDispatch {
         UnrelatedClass1 unrelObj1 = new UnrelatedClass1();
         ref = unrelObj1;
 
-        The above code will error because, for Dynamic Dispatch to work, the classes the objects are initialised from must...
+        The above code will error because, for Subtyping to work, the classes the objects are initialised from must...
         1) The current object is being reassigned to an object that is either the child or parent of the current object.
         2) The object being reassigned a new object share the same parent class.
          */
